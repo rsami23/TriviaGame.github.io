@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>WWE Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    
+</head>
+<body>
+
+<div class="container">
+        <div class="game">
+            <div class="main-page-content">
+                <h1>WWE Trivia</h1>
+                <br>
+                <p>Test your knowledge of the WWE in this Trivia Game!</p>
+                <br>
+                <button id="start-button" type="button" class="btn btn-dark btn-lg">START</button>
+            </div>
+
+            <div class="questions">
+                <div id="timer"></div>
+                <div id="questions-area"></div>
+                <div id="answers"></div>
+                <div class="scoreCard" style="display: none;">
+                    <div class="correctAnswers"></div>
+                    <div class="wrongAnswers"></div>
+                </div>
+                <div class="results"></div>
+
+            </div>
+        </div>
+</div>
+
+<!-- jQuery CDN -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+    
+<!-- Javascrapt Link -->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>

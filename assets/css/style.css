@@ -1,0 +1,51 @@
+
+.container {
+    margin: 0 auto;
+    width:80%;
+}
+
+body {
+    background-image: url("https://vignette.wikia.nocookie.net/freshbeatbandofspies/images/0/0f/FBBOS_Wrestling_Ring.png/revision/latest?cb=20150912205401");
+    background-repeat: no-repeat;
+  
+
+}
+
+.game {
+    margin: 150px auto;
+    background-color: #8B0000;
+    height: 500px;
+    text-align: center;
+    color: white;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px rgb(155, 3, 3);
+    padding: 100px;
+}
+
+.game h1 {
+    font-size: 90px;
+    text-shadow: 0 0 5px #FFF;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: blue; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.scoreCard{
+    padding: 15px;
+    border: 1px solid white;
+    width: 30%;
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
+}
+
